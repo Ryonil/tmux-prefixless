@@ -7,4 +7,3 @@ else
 	new_path="$(tmux display-message -p '#{pane_current_path}')"
 fi
 tmux new-window -c "$new_path"
-tmux split-pane -h -c "$new_path"
