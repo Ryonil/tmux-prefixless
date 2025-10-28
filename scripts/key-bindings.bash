@@ -63,7 +63,7 @@ tmux \
 	bind-key -T "$keytable" M-7 select-window -t 7 \; \
 	bind-key -T "$keytable" M-8 select-window -t 8 \; \
 	bind-key -T "$keytable" M-9 select-window -t 9 \; \
-	bind-key -T "$keytable" M-0 select-window -t 0
+	bind-key -T "$keytable" M-0 select-window -t 10
 
 # Switch panes with <M-h/j/k/l>
 tmux \
